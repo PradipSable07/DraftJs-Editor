@@ -1,8 +1,21 @@
-# React + Vite
+## Project Name
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Editor with Draft.js in ReactJS
 
-Currently, two official plugins are available:
+### Description
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This project is an editor built using Draft.js within ReactJS. The editor has three main components: Title, Button, and Editor. It allows users to write and format text using Markdown-like syntax.
+
+### Features
+
+- **Heading Format**: Typing `#` as the first character in a line followed by space changes the text to a heading format.
+- **Bold Format**: Typing `*` as the first character in a line followed by space makes the text bold.
+- **Red Line Format**: Typing `R` as the first characters in a line followed by space changes the text color to red.
+- **Underline Format**: Typing `_` as the first characters in a line followed by space underlines the text.
+- **Save Button**: Pressing the "Save" button saves the content typed in the editor to local storage. Upon refreshing the page, the saved content is refilled into the editor.
+
+### Technologies Used
+
+- ReactJS
+- Draft.js
+- CSS
